@@ -1,1 +1,1 @@
-# STORM-CHDMan
+# STORM CHDMan
