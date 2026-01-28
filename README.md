@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="300" height="300" alt="STORM CHDMan Logo" src="stormchdman.jpg" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/c323f040-8ca7-4ceb-b86f-b2314d047f53" />
 
 # STORM CHDMan
 
