@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/99c3325a-36c2-491a-9ad0-5465a44b9877" />
+<img width="300" height="300" alt="STORM CHDMan Logo" src="stormchdman.jpg" />
 
 # STORM CHDMan
 
@@ -15,18 +15,20 @@
 5. **⚙️ Система пресетов:** Индивидуальные настройки сжатия и размера блока (Hunk) для каждой платформы.
 6. **📱 Оптимизация для AetherSX2:** Специальный режим для мобильных эмуляторов (Zlib + оптимальные блоки).
 7. **🧵 Многопоточность:** Полная поддержка многоядерных процессоров для максимальной скорости.
-8. **📥 Drag & Drop:** Перетаскивание файлов и папок прямо в таблицу.
+8. **📥 Drag & Drop:** Мгновенное добавление файлов в таблицу с фоновой подгрузкой метаданных.
 9. **🔄 Рекурсивный поиск:** Автоматическое сканирование всех вложенных папок.
-10. **📊 Контроль сжатия:** Отображение исходного и конечного размера, а также процента разницы.
+10. **📊 Контроль сжатия:** Отображение исходного/конечного размера и расчет итогового процента экономии.
 11. **🌐 Мультиязычность:** Полная поддержка русского и английского интерфейсов.
-12. **🌙 Современный UI:** Темная тема с акцентными цветами и удобным отображением статуса в реальном времени.
+12. **🌙 Современный UI:** Темная тема с акцентными цветами и Real-time статусом обработки.
 13. **💾 Сохранение состояния:** Запоминание размеров окна, ширины колонок и настроек путей.
 14. **⚡ Менеджер DAT-файлов:** Встроенная загрузка и обновление баз данных Redump "в один клик".
 15. **🛡️ Хеширование SHA1:** Расчет контрольных сумм для точной идентификации игр.
-16. **🔄 Авто-обновление:** Проверка новых версий и обновление программы прямо из интерфейса.
+16. **🔄 Авто-обновление:** "Умная" проверка версий и надежное обновление с чистым перезапуском.
 17. **🚀 Портативность:** Работает как одиночный EXE-файл без необходимости установки.
 18. **🖱️ Контекстное меню:** Удобное управление списком и быстрый переход к папкам с файлами.
-19. **🛠️ Интегрированный CHDMan:** Все необходимые инструменты уже вшиты внутрь приложения.
+19. **📦 Поддержка архивов:** Автоматическая распаковка ZIP, 7Z и RAR с последующей очисткой.
+20. **🧹 Умная очистка:** Автоматическое удаление временных файлов при старте и после работы.
+21. **🛠️ Интегрированный CHDMan:** Все необходимые инструменты уже вшиты внутрь приложения.
 
 ---
 
@@ -39,15 +41,17 @@
 5. **⚙️ Preset System:** Individual compression settings and hunk sizes for each platform.
 6. **📱 AetherSX2 Optimization:** Special mode for mobile emulators (Zlib + optimal block sizes).
 7. **🧵 Multithreading:** Full support for multi-core processors for maximum performance.
-8. **📥 Drag & Drop:** Easily drag files and folders directly into the processing table.
+8. **📥 Drag & Drop:** Instant file adding to the list with background metadata fetching.
 9. **🔄 Recursive Scanning:** Automatic file discovery in all nested subdirectories.
-10. **📊 Compression Metrics:** Displays source/final sizes and exact compression percentage.
-11. **🌐 Multilingual:** Full support for Russian and English interface.
-12. **🌙 Modern UI:** Dark theme with accent colors and real-time status tracking.
+10. **📊 Compression Metrics:** Real-time size display and final savings percentage calculation.
+11. **🌐 Multilingual:** Full support for Russian and English languages.
+12. **🌙 Modern UI:** Dark theme with accent colors and real-time processing status.
 13. **💾 State Persistence:** Remembers window size, column widths, and path settings.
 14. **⚡ DAT Manager:** Built-in one-click download and update for Redump databases.
 15. **🛡️ SHA1 Hashing:** Checksum calculation for precise game identification.
-16. **🔄 Auto-Update:** Version checking and one-click application updates.
+16. **🔄 Auto-Update:** Smart version checking and robust updates with clean restart logic.
 17. **🚀 Portability:** Runs as a standalone EXE file with no installation required.
 18. **🖱️ Context Menu:** Quick row management and "Open File Location" support.
-19. **🛠️ Integrated CHDMan:** All necessary backend tools are bundled within the application.
+19. **📦 Archive Handling:** Automated extraction of ZIP, 7Z, and RAR with post-cleanup.
+20. **🧹 Intelligent Cleanup:** Automatic removal of temporary folders on startup and after processing.
+21. **🛠️ Integrated CHDMan:** All necessary backend tools are bundled within the application.
