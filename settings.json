@@ -1,0 +1,39 @@
+{
+    "language": "RU",
+    "output_folder": "",
+    "window_size": [
+        1200,
+        800
+    ],
+    "column_widths": [
+        450,
+        60,
+        100,
+        150,
+        80,
+        80,
+        80,
+        80,
+        120,
+        120
+    ],
+    "preset_column_widths": [
+        40,
+        220,
+        200,
+        200,
+        200,
+        228
+    ],
+    "threads": 0,
+    "compression": "lzma",
+    "hunk_cd": "2352",
+    "hunk_dvd": "4096",
+    "force_overwrite": false,
+    "platform_recognition": true,
+    "preset_aethersx2": false,
+    "notify_text": true,
+    "notify_sound": false,
+    "auto_update": false,
+    "theme": "Dark"
+}
