@@ -1,0 +1,46 @@
+{
+    "language": "RU",
+    "output_folder": "F:/MY SOFT/STORM CHDMan (Github)/PythonVersion/TEST",
+    "window_size": [
+        2171,
+        1215
+    ],
+    "column_widths": [
+        520,
+        86,
+        144,
+        245,
+        80,
+        103,
+        160,
+        183,
+        257,
+        458
+    ],
+    "preset_column_widths": [
+        40,
+        220,
+        200,
+        200,
+        200,
+        839
+    ],
+    "threads": 16,
+    "compression": "lzma",
+    "hunk_cd": "1047744",
+    "hunk_dvd": "1048576",
+    "force_overwrite": false,
+    "platform_recognition": true,
+    "preset_aethersx2": false,
+    "notify_text": true,
+    "notify_sound": false,
+    "auto_update": true,
+    "theme": "Steel Storm",
+    "minimize_to_tray": false,
+    "close_to_tray": false,
+    "log_font_size": 10,
+    "log_font_enabled": false,
+    "extract_subfolders": false,
+    "delete_source": false,
+    "platform_output_folders": []
+}

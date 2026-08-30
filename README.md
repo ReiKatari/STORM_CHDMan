@@ -1,65 +1,46 @@
-<div align="center">
+# STORM CHDMan
 
-<img src="logo.png" width="128" height="128" alt="STORM CHDMAN Logo" />
+## **О проекте**
+STORM CHDMan — графическая оболочка (GUI) для консольной утилиты CHDMan (MAME Compressed Hunks of Data), предназначенная для пакетного сжатия, конвертации, извлечения и верификации образов оптических дисков (ISO, CUE/BIN, GDI, CDI, TOC) в высокоэффективный формат CHD. Формат CHD обеспечивает компрессию без потерь качества (до 50-70% экономии места на диске) и нативно поддерживается всеми современными эмуляторами ретро-консолей.
 
-# ⚡ STORM CHDMAN
+## **Происхождение и форки**
+Графическая оболочка, архитектура пакетной очереди, распознавание платформ по DAT-файлам и автоматизация созданы ReiKatari. В качестве базового ядра компрессии используется оригинальная открытая утилита CHDMan от команды разработчиков MAME Project.
 
-<p align="center">
-  <b>Графический интерфейс для сжатия образов дисков PS1, PS2, Dreamcast, Saturn в компактный формат CHD.</b>
-</p>
+## **Технологический стек**
+- **Языки программирования**: C# (.NET 9.0), C++ (MAME CHD Core)
+- **Интерфейс пользователя**: Windows Presentation Foundation (WPF), XAML, Асинхронный диспетчер задач, Трей-контроллер
+- **Ядро сжатия**: MAME chdman.exe (LZMA, FLAC, ZLIB, Huffman, Zstandard алгоритмы)
+- **Парсинг образов**: Встроенный парсер CUE/BIN таблиц, GDI (Dreamcast), ISO9660 и Redump/No-Intro DAT-файлов
+- **Архивация**: Встроенная автоматическая распаковка входящих ZIP, RAR, 7Z архивов перед обработкой
 
-[![Version](https://img.shields.io/badge/version-1.3.7-00D2FF.svg?style=for-the-badge)](https://github.com/ReiKatari/STORM_CHDMan)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%7C%2010-0EA5E9.svg?style=for-the-badge)](https://github.com/ReiKatari/STORM_CHDMan)
-[![Publisher](https://img.shields.io/badge/Publisher-STORM%20TEAM-10B981.svg?style=for-the-badge)](https://github.com/ReiKatari)
-[![Developer](https://img.shields.io/badge/Author-ReiKatari-F59E0B.svg?style=for-the-badge)](https://github.com/ReiKatari)
-[![Signed](https://img.shields.io/badge/Security-SHA256%20Signed-10B981.svg?style=for-the-badge)](https://github.com/ReiKatari)
+## **Ключевые возможности**
+- **Многопоточная пакетная обработка**: Конвертация сотен образов дисков параллельно с полной загрузкой многоядерных процессоров.
+- **Автоматическое определение платформы**: Идентификация типа консоли по структуре секторов и заголовкам образов с выбором оптимального профиля компрессии (CD/DVD/GD-ROM).
+- **Поддержка всех типов конвертации**: `createcd` (для CUE/BIN/TOC с аудио-треками в FLAC), `createdvd` (для DVD ISO образов), `extractcd` / `extractdvd` (обратная распаковка CHD в ISO или CUE/BIN).
+- **Умные папки назначения**: Настройка автоматической сортировки выходных CHD-файлов по индивидуальным папкам целевых платформ.
+- **Прямая работа с архивами**: Автоматическое извлечение образов из ZIP, 7Z, RAR на лету с последующей конвертацией и очисткой временных файлов.
+- **Интеграция с треем и логами**: Настраиваемый размер шрифта консоли вывода, сворачивание/закрытие в системный трей, звуковые уведомления об окончании очереди.
 
-</div>
+## **Поддерживаемые платформы и эмуляторы**
+- **Операционные системы**: Windows 10, Windows 11 (x64)
+- **Поддерживаемые форматы образов**: CUE, BIN, ISO, GDI, CDI, TOC, NRG, MDS/MDF, CHD (v1–v5)
+- **Поддерживаемые игровые консоли**: Sony PlayStation 1 (PS1), PlayStation 2 (PS2), PlayStation Portable (PSP), Sega Dreamcast, Sega Saturn, Sega CD / Mega-CD, 3DO Interactive Multiplayer, PC Engine CD / TurboGrafx-CD, Neo Geo CD, PC-FX, Amiga CD32, MAME / Arcade Machines
+- **Поддерживаемые эмуляторы**: PCSX2, AetherSX2, NetherSX2, DuckStation, SwanStation, Beetle PSX, Mednafen, PPSSPP, Flycast, Redream, YabaSanshiro, Kronos, Opera / 4DO, Genesis Plus GX, Picodrive, RetroArch (все поддерживаемые CHD-ядра), Batocera, RetroBat, EmuDeck, LaunchBox
 
----
+## **Установка и запуск**
+1. Откройте страницу **Releases** репозитория на GitHub.
+2. Скачайте архив или инсталлятор `STORM_CHDMAN_Setup.exe`.
+3. Запустите установку. Исполняемый файл `chdman.exe` уже включен в комплект и настроен.
+4. Перетащите файлы или папки с образами дисков в окно программы (Drag & Drop) и запустите процесс.
 
-## 🌟 О проекте / Overview
+## **Безопасность и цифровые подписи**
+Приложение подписано цифровой подписью **CN=STORM SOFT, O=STORM EDEN** (Authenticode SHA-256). Все операции чтения и записи производятся локально без изменения исходных файлов до подтверждения пользователем.
 
-**STORM CHDMAN** — компонент программного комплекса **STORM**, разработанный с упором на максимальную производительность, современный дизайн и надёжность.
+## **Авторы и лицензия**
+- **Автор проекта**: ReiKatari (GUI и интеграция), MAME Development Team (CHDMan Engine)
+- **Лицензия**: GPLv2 / GPLv3 (в соответствии с лицензией MAME Project)
 
-* **Версия:** $ver
-* **Издатель:** STORM TEAM
-* **Ведущий разработчик:** ReiKatari
-* **Технологический стек:** $tech
-
----
-
-## 🚀 Установка / Installation
-
-Установка производится через единый инсталлятор **STORM INSTALLER**:
-
-1. Запустите файл STORM_STORM_CHDMAN_1.3.7_Setup.exe.
-2. Выберите режим:
-   * **Стандартная установка** — установка в C:\Program Files\STORM CHDMAN с созданием ярлыков и регистрацией в системе.
-   * **Портативная версия** — распаковка в любую выбранную папку без изменения реестра.
-3. Опция автоматической регистрации доверенного сертификата STORM TEAM исключает предупреждения SmartScreen и Smart App Control.
-
----
-
-## 🛡️ Безопасность и Цифровая подпись / Code Signing
-
-Все исполняемые файлы и инсталляторы подписаны сертификатом **STORM TEAM** с использованием хэширования SHA-256 и RFC 3161 Timestamping.
-
-* Для ручной установки сертификата в хранилище доверенных корневых центров запустите:
-  Files\Разблокировать_И_Установить_Сертификат.bat от имени Администратора.
-
----
-
-## 📁 Структура репозитория / Structure
-
-* Assembling/ — скомпилированные релизные бинарные файлы и зависимости программы.
-* Files/ — инсталлятор, сертификат STORM_Certificate.cer и сервисные скрипты.
-* Sources/ — исходный код решения.
-
----
-
-## 👥 Авторы и Лицензия / Credits
-
-* **Разработчик:** [ReiKatari](https://github.com/ReiKatari)
-* **Издатель:** **STORM TEAM**
-* © 2026 STORM TEAM. Все права защищены.
+## **Благодарности**
+- **MAME Development Team (MAMEDev)** — за создание и поддержку эталонного формата CHD и утилиты chdman.
+- **Разработчики PCSX2, DuckStation, Flycast, NetherSX2** — за популяризацию и безупречную поддержку CHD в эмуляторах.
+- **Сообщества No-Intro и Redump** — за эталонные DAT-базы и стандарты сохранения игрового наследия.

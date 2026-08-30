@@ -1,0 +1,104 @@
+{
+  "Altered Beast (Europe) (En,Fr,De,Es,It).iso": {
+    "sha1": "61A95269522098E57E1FF3C552F6FF1BC531D590",
+    "serial": "SLES-53024",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:32:19.341439"
+  },
+  "Blade II (USA).iso": {
+    "sha1": "B04732F1364D60C870DF5F5DE8F9A85E5CD16941",
+    "serial": "SLUS-20360",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:32:21.184724"
+  },
+  "Casper (USA).cue": {
+    "sha1": "43DD88D2695F222B23B435B008DF8CE166861FE8",
+    "serial": "",
+    "platform": "Panasonic - 3DO Interactive Multiplayer",
+    "updated": "2026-01-31T06:46:46.589324"
+  },
+  "Mortal Kombat - Special Forces (USA).cue": {
+    "sha1": "F6158493B87C456543853754366CE665CA6F28E0",
+    "serial": "SLUS-00824",
+    "platform": "Sony - PlayStation",
+    "updated": "2026-01-31T06:46:47.116244"
+  },
+  "Mortal Kombat (USA).cue": {
+    "sha1": "79E0DD945681F8ED25FA6857DCAC6A3FC8BB3D5F",
+    "serial": "T-81025",
+    "platform": "Sega - Mega CD & Sega CD",
+    "updated": "2026-01-31T06:46:47.321870"
+  },
+  "Mortal Kombat 3 (USA).cue": {
+    "sha1": "C859C47C957C60DE82261C4D5FD184E7CEBAC957",
+    "serial": "SCUS-94201",
+    "platform": "Sony - PlayStation",
+    "updated": "2026-01-31T06:46:47.550522"
+  },
+  "Mortal Kombat 4 (USA).cue": {
+    "sha1": "21515CDD9829521A2DB76A83300B77E83855FA88",
+    "serial": "SLUS-00605",
+    "platform": "Sony - PlayStation",
+    "updated": "2026-01-31T06:46:48.541123"
+  },
+  "Mortal Kombat Mythologies - Sub-Zero (USA).cue": {
+    "sha1": "BF5803D35AA7F55DC60BEBBAC645FC0D4E99C978",
+    "serial": "SLUS-00476",
+    "platform": "Sony - PlayStation",
+    "updated": "2026-01-31T06:46:49.329009"
+  },
+  "Mortal Kombat Trilogy (USA) (Rev 1).cue": {
+    "sha1": "AA9B7E1716BD8790BCA25D651C280F7A2A48B884",
+    "serial": "SLUS-00330",
+    "platform": "Sony - PlayStation",
+    "updated": "2026-01-31T06:46:46.200883"
+  },
+  "Suffering, The - Ties That Bind (USA).iso": {
+    "sha1": "45ADA9BC5E66A080CFB7A18B6C3971084B18E79B",
+    "serial": "SLUS-21189",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:32:37.207085"
+  },
+  "Suffering, The (USA).iso": {
+    "sha1": "95E3041243488AB30F2DE595457B5F03C7D8ACB8",
+    "serial": "SLUS-20636",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:32:41.534172"
+  },
+  "Thing, The (USA).cue": {
+    "sha1": "0AD3157B24E159E889013363B93A3D9495E72B42",
+    "serial": "SLUS-20371",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:32:42.422599"
+  },
+  "X-Files, The - Resist or Serve (USA).iso": {
+    "sha1": "C681A007DA8EF31D2E6FDEC102BBACA7FC67DF27",
+    "serial": "SLUS-20179",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:32:45.740701"
+  },
+  "Altered Beast [EU] [ENG] (1.0 - SLES-53024) (1G).zip": {
+    "sha1": "593EB56B845FDB22062FAF44664D68565E70B910",
+    "serial": "SLES-53024",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:33:15.120693"
+  },
+  "Blade II [US] [ENG] (1.0 - SLUS-20360) (1G).zip": {
+    "sha1": "882FA5C7864A1FA7B9339C6A59B4A977BB8058B9",
+    "serial": "SLUS-20360",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:33:43.154428"
+  },
+  "The Thing [US] [ENG] (1.01 - SLUS-20371) (1G+1U).zip": {
+    "sha1": "3489BFCA706817AAB74F33E341903D4FD0B89D72",
+    "serial": "SLUS-20371",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:33:50.731044"
+  },
+  "The X-Files - Resist or Serve [EU] [ENG] (1.0 - SLUS-20179) (1G).zip": {
+    "sha1": "305C14E1AC28F002B4D252819A96638DD7025DDA",
+    "serial": "SLUS-20179",
+    "platform": "Sony - PlayStation 2",
+    "updated": "2026-01-30T17:34:20.504568"
+  }
+}
